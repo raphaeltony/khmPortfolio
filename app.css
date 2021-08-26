@@ -1,0 +1,38 @@
+.headings{
+    padding-top: 10%;
+}
+.headings p{
+    font-family: Consolas,monaco,monospace;
+}
+.highlight {
+    background: #fedc3d;
+    margin: 2em 0;
+    padding: 0.5em;
+    line-height: 1.2em;
+    box-sizing: border-box;
+    border : solid 2px black
+}
+.avatar {
+    width: 85%;
+    height: auto;
+}
+
+.blurb{
+    background: #fedc3d;
+    overflow: hidden;
+}
+.blurb:nth-of-type(2n){
+    background: #01ABAA
+}
+.blurb img{
+    transition: 0.5s all ease-in-out;
+}
+.blurb img:hover {
+        transform: scale(1.5);
+}
+@media (max-width : 768px){
+    .blurb img:hover {
+        transform: none;
+}
+}
+
