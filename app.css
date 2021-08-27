@@ -44,3 +44,11 @@
 footer {
   background: #fedc3d;
 }
+
+.links a {
+  color: #000;
+  text-decoration: none;
+}
+.links span {
+  margin-right: 4em;
+}

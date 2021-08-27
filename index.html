@@ -15,8 +15,35 @@
   </head>
 
   <body>
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="container-fluid p-5">
+      <div class="row">
+        <div class="col-4">
+          <h4>RAPHAEL TONY</h4>
+          <p class="lead fs-6">CS Undergraduate</p>
+        </div>
+
+        <div
+          class="col d-flex align-items-center justify-content-end fs-5 links"
+        >
+          <span class="">
+            <a href="#mainNavbar" class="">Home</a>
+          </span>
+          <span class="">
+            <a href="#endv">Endeavours</a>
+          </span>
+          <span class="">
+            <a href="#about">About</a>
+          </span>
+          <span class="">
+            <a href="#exp">Experience</a>
+          </span>
+        </div>
+      </div>
+    </nav>
+
     <!-- Cover -->
-    <div class="container m-md-5">
+    <div class="container m-md-5 mt-md-0">
       <div class="row">
         <div class="col-md-6 headings order-md-1 order-2">
           <h1 class="display-1 text-center text-md-end text-black">Raphael</h1>
@@ -32,7 +59,7 @@
       </div>
     </div>
 
-    <section class="container-fluid mt-5 p-5 bg-black">
+    <section id="endv" class="container-fluid mt-5 p-5 bg-black">
       <h2 class="display-2 mb-5 text-white">Endeavours</h2>
 
       <!-- Endeavour 1 -->
@@ -145,7 +172,7 @@
     </section>
 
     <!-- About -->
-    <section class="container my-5">
+    <section id="about" class="container my-5">
       <div class="row">
         <div class="col-md-3">
           <!-- card -->
@@ -205,7 +232,7 @@
       </div>
     </section>
 
-    <section class="container-fluid bg-black p-md-5">
+    <section id="exp" class="container-fluid bg-black p-md-5">
       <h2 class="display-2 mb-5 text-white">Experience</h2>
       <div class="d-flex flex-column align-items-center">
         <!-- exp1 -->
@@ -259,7 +286,7 @@
         <div class="col-3">
           <p>&copy; Raphael Tony. All Rights Reserved.</p>
         </div>
-        <div class="col-7"></div>
+        <div class="col"></div>
         <div class="col-2">
           <!-- insta -->
           <span>
@@ -318,6 +345,21 @@
               </svg>
             </a>
           </span>
+        </div>
+        <!-- goto top -->
+        <div class="col-1">
+          <a href="#mainNavbar">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </footer>
